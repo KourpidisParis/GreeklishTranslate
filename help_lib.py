@@ -94,8 +94,8 @@ def check_for_last_s(temp_list):
 def check_tow_characters_will_be_one(list_with_letters, final_text_on_greek):
     special_combinations = ["πσ", "τη", "ΤΗ",
                             "ΠΣ","κσ","ΚΣ"]  # Οι χρήστες που γράφουν greeklish, συχνα πληκτρολογούν δύο αγγλικά γράμματα που
-    # όμως στα ελληνικα μεταγράζεται ως ένα
-    # Τα γράμματα αυτά ειναι στην λίστα special combinatons
+    # όμως στα ελληνικα μεταfράζεται ως ένα
+    # Τα γράμματα αυτά ειναι στην λίστα special combinations
 
     list_with_letters.append("-")  # προσθέτω έναν χαρακτήρα ,στη τελευταία θέση που θα σηματοδοτεί το τέλος της λίστας
 
